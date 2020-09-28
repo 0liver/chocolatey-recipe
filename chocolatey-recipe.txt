@@ -33,6 +33,7 @@ choco install visualstudio2017-workload-netweb
 choco install resharper-platform
 choco install notepadplusplus
 choco install vscode
+choco install visualstudio2019buildtools --package-parameters "--includeRecommended --add Microsoft.VisualStudio.Workload.WebBuildTools"
 
 # browsers
 choco install googlechrome
